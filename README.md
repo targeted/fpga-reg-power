@@ -2,7 +2,7 @@
 
 In this experiment, I compare power consumption of various FPGA devices' registers, using various consumer development boards. 
 
-No attempt is made to explain the results, based on the differences in LE structure, manufacturing technology, process nanometers or whatever, just the numbers. Make of it what you will.
+No attempt is made to explain the results, based on the differences in density, LE structure, manufacturing technology, process nanometers or what have you, just the numbers. Make of it what you will.
 
 # Methodology
 
