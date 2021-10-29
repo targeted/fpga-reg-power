@@ -28,7 +28,32 @@ The simulation source is available in this repository, and here is how the simul
 
 # Hardware
 
-The list of the tested FPGA devices can be found in the spreadsheet below, along with the links. For measuring the power [this device](https://www.amazon.de/-/en/gp/product/B07W6MWNMV/) was used (reports as Ruideng AT35 v.1.7 as it boots).
+The following is the list of tested devices:
+
+1. [Diymore Cyclone II](https://www.diymore.cc/products/eprom-5v-altera-fpga-cycloneii-ep2c5t144-minimum-system-development-board-usb-blaster-mini-usb-cable-10pin-jtag-connection-cable), Altera Cyclone II (EP2C5T144C8)
+2. [Zrtech](https://www.youtube.com/watch?v=X9qC44bT3r4), Altera Cyclone IV (EP4CE6E22C8N)
+3. [BeMicro-Max-10](https://community.intel.com/t5/FPGA-Wiki/BeMicro-Max-10/ta-p/735231), Altera Max 10 (10M08DAF484C8GES)
+4. [Max1000](https://shop.trenz-electronic.de/en/TEI0001-03-16-C8A-MAX1000-IoT-Maker-Board-16-kLE-32-MByte-SDRAM), Altera Max 10 (10M16SAU169C8G)
+5. [Cyc1000](https://shop.trenz-electronic.de/en/Products/Trenz-Electronic/CYC1000-Intel-Cyclone-10/), Intel Cyclone 10 (10CL025YU256C8G)
+6. [Micro-Nova Mercury](https://www.micro-nova.com/mercury), Spartan 3A (XC3S200A5VQ100)
+7. [Godil50](http://www.oho-elektronik.de/pics/UM_GODIL.pdf), Spartan 3E (XC3S500E4VQG100C)
+8. [Numato Labs Mimas V2](https://numato.com/product/mimas-v2-spartan-6-fpga-development-board-with-ddr-sdram/), Spartan 6 (XC6SLX9CSG324)
+9. [Digilent Cora Z7](https://digilent.com/reference/programmable-logic/cora-z7/start), Zynq 7000, (XC7Z007S1CLG400C)
+10. [Digilent Cmod S7](https://digilent.com/reference/programmable-logic/cmod-s7/start), Spartan 7 (XC7S251CSGA225C)
+11. [Digilent Cmod A7](https://digilent.com/reference/programmable-logic/cmod-a7/start), Artix 7 (XC7A35T1CPG236C)
+12. [Lattice MachXO2 Pico](https://www.latticesemi.com/alpha-mxo2-pico-kit), Mach XO2 (LCMX02-1200ZE-1MG123I)
+13. [Nandland Go Board](https://www.nandland.com/blog/go-board-introduction.html), iCE40 (iCE40HX1K)
+14. [Trenz-Electronic LXO2000](https://shop.trenz-electronic.de/en/TEL0001-02-LXO2000-with-Lattice-XO2-4000-On-Board-USB/JTAG-2.5-x-6.15-cm), Mach XO2 (LCMXO2-4000HC-4QN84C)
+15. [Orange Crab](https://1bitsquared.com/products/orangecrab), ECP5 (LFE5U-25F-8MG285C)
+16. [ULX3S](https://www.crowdsupply.com/radiona/ulx3s), ECP5 (LFE5U-85F-6BG381C)
+17. [Tang Primer](https://tang.sipeed.com/en/), Anlogic EG4 (EG4S20BG256)
+18. [Runber](https://www.seeedstudio.com/Gowin-RUNBER-Development-Board-p-4779.html), Gowin GW1N-4 (GW1N-UV4LQ144C6/I5)
+19. [Trenz-Electronic TEC0117](https://shop.trenz-electronic.de/en/TEC0117-01-FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM), Gowin GW1NR-9 (GW1NR-LV9QN88C6/I5)
+20. [FireAnt](https://www.crowdsupply.com/jungle-elec/fireant), Trion T8 (T8F81)
+21. [Trion T20](https://www.efinixinc.com/products-devkits-triont20.html), Trion T20 (T20F256)
+22. [Trenz-Electronic SMF2000](https://shop.trenz-electronic.de/en/TEM0001-01A-010C-SMF2000-FPGA-Module-with-Microsemi-SmartFusion2-8-MByte-SDRAM), Microsemi SF2 (M2S010-VF400)
+
+For measuring the power [this device](https://www.amazon.de/-/en/gp/product/B07W6MWNMV/) was used (reports as Ruideng AT35 v.1.7 as it boots).
 
 # The results
 
