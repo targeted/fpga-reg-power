@@ -1,4 +1,4 @@
-# Experimental measurement of FPGA registers power consumption.
+# Experimental measurement of FPGA registers power consumption
 
 In this experiment, I compare power consumption of various FPGA devices' registers, using various consumer development boards. 
 
