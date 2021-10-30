@@ -73,4 +73,6 @@ The following is the graph built from the data. The 100 Mhz column is probably t
 
 The Go Board is based on iCE40HX1K FPGA chip in VQ100 package, which doesn't have any PLLs. Therefore I could only run it at the 25 MHz the board oscillator provides.
 
+For the hybrid chips, that contain both a CPU core and FPGA, the CPU is ignored, only the FPGA half is used.
+
 And I absolutely cannot explain the results from the Runber device featuring Gowin 1N4 chip, it goes off the chart right away, for no apparent reason. Its TEC0117 sibling does just fine. Perhaps there is something wrong with the particular board, or the chip.
