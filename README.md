@@ -63,7 +63,7 @@ This is the final table with the collected data. The devices are grouped by manu
 
 [download spreadsheet here](https://github.com/targeted/fpga-reg-power/blob/main/docs/power_data.ods?raw=true)
 
-The following is the graph built from the data. The 100 Mhz column is probably the most useful, the rest is there mostly to demonstrate the linearity.
+The following is the graph built from the data. The 100 Mhz column is probably the most useful, the rest is there just to demonstrate the linearity.
 
 ![Scheme](/images/power_graph.png)
 
