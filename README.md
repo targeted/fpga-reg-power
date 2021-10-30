@@ -53,11 +53,11 @@ The following is the list of tested devices:
 21. [Trion T20](https://www.efinixinc.com/products-devkits-triont20.html), Efinix Trion T20 (T20F256)
 22. [Trenz-Electronic SMF2000](https://shop.trenz-electronic.de/en/TEM0001-01A-010C-SMF2000-FPGA-Module-with-Microsemi-SmartFusion2-8-MByte-SDRAM), Microsemi SmartFusion2 (M2S010-VF400)
 
-For measuring the power [this device](https://www.amazon.de/-/en/gp/product/B07W6MWNMV/) was used (reports as Ruideng AT35 v.1.7 as it boots).
+For power measurement [this device](https://www.amazon.de/-/en/gp/product/B07W6MWNMV/) was used (reports as Ruideng AT35 v.1.7 as it boots).
 
 # The results
 
-This is the final table with the collected data. The devices are grouped by manufacturer, and the different frequencies are represented by the vertical blocks.
+Here is the final table with the collected data. The devices are grouped by manufacturer, and the different frequencies are represented by the vertical blocks.
 
 ![Scheme](/images/power_table.png)
 
