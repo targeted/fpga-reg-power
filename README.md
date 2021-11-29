@@ -73,9 +73,9 @@ Finally, here is the list of devices, in the ascending order of the measured pow
 
 |  №  | Family            | Model                 | µW/reg @ 100MHz   |
 | :-: | ----------------- | --------------------- | ----------------: |
-| 1   | ECP5 (25)         | LFE5U-25F-8MG285C     |              23.0 |
+| 1   | ECP5              | LFE5U-25F-8MG285C     |              23.0 |
 | 2   | Microsemi SF2     | M2S010-VF400          |              23.1 |
-| 3   | ECP5 (85)         | LFE5U-85F-6BG381C     |              25.1 |
+| 3   | ECP5              | LFE5U-85F-6BG381C     |              25.1 |
 | 4   | Zynq 7000         | XC7Z007S1CLG400C      |              26.5 |
 | 5   | Altera Max 10     | 10M08DAF484C8GES      |              33.4 |
 | 6   | Intel Cyclone 10  | 10CL025YU256C8G       |              36.6 |
@@ -86,13 +86,13 @@ Finally, here is the list of devices, in the ascending order of the measured pow
 | 11  | Artix 7           | XC7A35T1CPG236C       |              67.2 |
 | 12  | Altera Max 10     | 10M16SAU169C8G        |              91.6 |
 | 13  | iCE40             | iCE40HX1K             |   23.0 x 4 = 92.0 |
-| 14  | Mach XO2 (HC)     | LCMXO2-4000HC-4QN84C  |              96.1 |
+| 14  | Mach XO2          | LCMXO2-4000HC-4QN84C  |              96.1 |
 | 15  | Trion T8          | T8F81                 |             109.9 |
 | 16  | Altera Cyclone IV | EP4CE6E22C8N          |             121.9 |
 | 17  | Spartan 6         | XC6SLX9CSG324         |             122.6 |
 | 18  | Gowin GW1NR-9     | GW1NR-LV9QN88C6/I5    |             130.5 |
 | 19  | Altera Cyclone II | EP2C5T144C8           |             166.0 |
-| 20  | Mach XO2 (ZE)     | LCMX02-1200ZE-1MG123I |             191.6 |
+| 20  | Mach XO2          | LCMX02-1200ZE-1MG123I |             191.6 |
 | 21  | Spartan 3A        | XC3S200A5VQ100        |             195.6 |
 | 22  | Gowin GW1N-4      | GW1N-UV4LQ144C6/I5    |         ??? 534.2 |
 
