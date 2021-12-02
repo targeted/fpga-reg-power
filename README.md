@@ -50,10 +50,11 @@ The following is the list of tested devices:
 16. [Radiona ULX3S](https://www.crowdsupply.com/radiona/ulx3s), Lattice ECP5 (LFE5U-85F-6BG381C)
 17. [Tang Primer](https://tang.sipeed.com/en/), Anlogic EG4 (EG4S20BG256)
 18. [Runber](https://www.seeedstudio.com/Gowin-RUNBER-Development-Board-p-4779.html), Gowin GW1N-4 (GW1N-UV4LQ144C6/I5)
-19. [Trenz-Electronic TEC0117](https://shop.trenz-electronic.de/en/TEC0117-01-FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM), Gowin GW1NR-9 (GW1NR-LV9QN88C6/I5)
-20. [FireAnt](https://www.crowdsupply.com/jungle-elec/fireant), Efinix Trion T8 (T8F81)
-21. [Trion T20](https://www.efinixinc.com/products-devkits-triont20.html), Efinix Trion T20 (T20F256)
-22. [Trenz-Electronic SMF2000](https://shop.trenz-electronic.de/en/TEM0001-01A-010C-SMF2000-FPGA-Module-with-Microsemi-SmartFusion2-8-MByte-SDRAM), Microsemi SmartFusion2 (M2S010-VF400)
+19. [DK START](https://gowinsemi.com/en/support/devkits_detail/31/), Gowin GW2A (LV18PG256C8I7)
+20. [Trenz-Electronic TEC0117](https://shop.trenz-electronic.de/en/TEC0117-01-FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM), Gowin GW1NR-9 (GW1NR-LV9QN88C6/I5)
+21. [FireAnt](https://www.crowdsupply.com/jungle-elec/fireant), Efinix Trion T8 (T8F81)
+22. [Trion T20](https://www.efinixinc.com/products-devkits-triont20.html), Efinix Trion T20 (T20F256)
+23. [Trenz-Electronic SMF2000](https://shop.trenz-electronic.de/en/TEM0001-01A-010C-SMF2000-FPGA-Module-with-Microsemi-SmartFusion2-8-MByte-SDRAM), Microsemi SmartFusion2 (M2S010-VF400)
 
 For power measurement [this device](https://www.amazon.de/-/en/gp/product/B07W6MWNMV/) was used (reports as Ruideng AT35 v.1.7 as it boots).
 
@@ -88,13 +89,14 @@ Finally, here is the list of devices, in the ascending order of the measured pow
 | 13  | iCE40             | iCE40HX1K             |   23.0 x 4 = 92.0 |
 | 14  | Mach XO2          | LCMXO2-4000HC-4QN84C  |              96.1 |
 | 15  | Trion T8          | T8F81                 |             109.9 |
-| 16  | Altera Cyclone IV | EP4CE6E22C8N          |             121.9 |
-| 17  | Spartan 6         | XC6SLX9CSG324         |             122.6 |
-| 18  | Gowin GW1NR-9     | GW1NR-LV9QN88C6/I5    |             130.5 |
-| 19  | Altera Cyclone II | EP2C5T144C8           |             166.0 |
-| 20  | Mach XO2          | LCMX02-1200ZE-1MG123I |             191.6 |
-| 21  | Spartan 3A        | XC3S200A5VQ100        |             195.6 |
-| 22  | Gowin GW1N-4      | GW1N-UV4LQ144C6/I5    |         ??? 534.2 |
+| 16  | Gowin GW2A        | LV18PG256C8I7         |             114.2 |
+| 17  | Altera Cyclone IV | EP4CE6E22C8N          |             121.9 |
+| 18  | Spartan 6         | XC6SLX9CSG324         |             122.6 |
+| 19  | Gowin GW1NR-9     | GW1NR-LV9QN88C6/I5    |             130.5 |
+| 20  | Altera Cyclone II | EP2C5T144C8           |             166.0 |
+| 21  | Mach XO2          | LCMX02-1200ZE-1MG123I |             191.6 |
+| 22  | Spartan 3A        | XC3S200A5VQ100        |             195.6 |
+| 23  | Gowin GW1N-4      | GW1N-UV4LQ144C6/I5    |         ??? 534.2 |
 
 # Notes
 
@@ -102,4 +104,4 @@ The Go Board is based on iCE40HX1K FPGA chip in VQ100 package, which doesn't hav
 
 For the hybrid chips, that contain both a CPU core and FPGA, the CPU is ignored, only the FPGA half is used.
 
-And I absolutely cannot explain the results from the Runber device featuring Gowin 1N4 chip, it goes off the chart right away, for no apparent reason. Its TEC0117 sibling does just fine. Perhaps there is something wrong with the particular board, or the chip.
+And I absolutely cannot explain the results from the Runber device featuring Gowin 1N4 chip, it goes off the chart right away, for no apparent reason. Its two other Gowin siblings do just fine. Perhaps there is something wrong with the particular board, or the chip.
