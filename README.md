@@ -20,13 +20,17 @@ This is how it looks like conceptually:
 
 ![Sketch](/images/power_draft.png)
 
-And this is how it looks when synthesized (for a chain of 3 registers):
+This is how it looks when synthesized (for a chain of 3 registers):
 
 ![Scheme](/images/power_tech.png)
 
-The simulation source is available in this repository, and here is how the simulated waveform looks like, for a chain of 10 registers:
+The simulation source is available in this repository, here is how the simulated waveform looks like, for a chain of 10 registers:
 
 ![Waveform](/images/power_waveform.png)
+
+And here is how an actual physical output may look:
+
+![Oscilloscope](/images/power_osc.png)
 
 # Hardware
 
@@ -34,27 +38,28 @@ The following is the list of tested devices:
 
 1. [Diymore](https://www.diymore.cc/products/eprom-5v-altera-fpga-cycloneii-ep2c5t144-minimum-system-development-board-usb-blaster-mini-usb-cable-10pin-jtag-connection-cable), Altera Cyclone II (EP2C5T144C8)
 2. [Zrtech](https://www.youtube.com/watch?v=X9qC44bT3r4), Altera Cyclone IV (EP4CE6E22C8N)
-3. [BeMicro-Max-10](https://community.intel.com/t5/FPGA-Wiki/BeMicro-Max-10/ta-p/735231), Altera Max 10 (10M08DAF484C8GES)
-4. [Trenz-Electronic MAX1000](https://shop.trenz-electronic.de/en/TEI0001-03-16-C8A-MAX1000-IoT-Maker-Board-16-kLE-32-MByte-SDRAM), Altera Max 10 (10M16SAU169C8G)
-5. [Trenz-Electronic CYC1000](https://shop.trenz-electronic.de/en/Products/Trenz-Electronic/CYC1000-Intel-Cyclone-10/), Intel Cyclone 10 (10CL025YU256C8G)
-6. [Micro-Nova Mercury](https://www.micro-nova.com/mercury), Spartan 3A (XC3S200A5VQ100)
-7. [OHO-Elektronik GODIL50](http://www.oho-elektronik.de/pics/UM_GODIL.pdf), Spartan 3E (XC3S500E4VQG100C)
-8. [Numato Labs Mimas V2](https://numato.com/product/mimas-v2-spartan-6-fpga-development-board-with-ddr-sdram/), Spartan 6 (XC6SLX9CSG324)
-9. [Digilent Cora Z7](https://digilent.com/reference/programmable-logic/cora-z7/start), Zynq 7000, (XC7Z007S1CLG400C)
-10. [Digilent Cmod S7](https://digilent.com/reference/programmable-logic/cmod-s7/start), Spartan 7 (XC7S251CSGA225C)
-11. [Digilent Cmod A7](https://digilent.com/reference/programmable-logic/cmod-a7/start), Artix 7 (XC7A35T1CPG236C)
-12. [Lattice MachXO2 Pico](https://www.latticesemi.com/alpha-mxo2-pico-kit), Lattice Mach XO2 (LCMX02-1200ZE-1MG123I)
-13. [Nandland Go Board](https://www.nandland.com/blog/go-board-introduction.html), Lattice iCE40 (iCE40HX1K)
-14. [Trenz-Electronic LXO2000](https://shop.trenz-electronic.de/en/TEL0001-02-LXO2000-with-Lattice-XO2-4000-On-Board-USB/JTAG-2.5-x-6.15-cm), Lattice Mach XO2 (LCMXO2-4000HC-4QN84C)
-15. [OrangeCrab](https://1bitsquared.com/products/orangecrab), Lattice ECP5 (LFE5U-25F-8MG285C)
-16. [Radiona ULX3S](https://www.crowdsupply.com/radiona/ulx3s), Lattice ECP5 (LFE5U-85F-6BG381C)
-17. [Tang Primer](https://tang.sipeed.com/en/), Anlogic EG4 (EG4S20BG256)
-18. [Runber](https://www.seeedstudio.com/Gowin-RUNBER-Development-Board-p-4779.html), Gowin GW1N-4 (GW1N-UV4LQ144C6/I5)
-19. [Trenz-Electronic TEC0117](https://shop.trenz-electronic.de/en/TEC0117-01-FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM), Gowin GW1NR-9 (GW1NR-LV9QN88C6/I5)
-20. [DK START](https://gowinsemi.com/en/support/devkits_detail/31/), Gowin GW2A (LV18PG256C8I7)
-21. [FireAnt](https://www.crowdsupply.com/jungle-elec/fireant), Efinix Trion T8 (T8F81)
-22. [Trion T20](https://www.efinixinc.com/products-devkits-triont20.html), Efinix Trion T20 (T20F256)
-23. [Trenz-Electronic SMF2000](https://shop.trenz-electronic.de/en/TEM0001-01A-010C-SMF2000-FPGA-Module-with-Microsemi-SmartFusion2-8-MByte-SDRAM), Microsemi SmartFusion2 (M2S010-VF400)
+3. [Qmtech](https://github.com/ChinaQMTECH/QM_CYCLONE_V/tree/master/5CEFA2F23), Altera Cyclone V (5CEFA2F23I7N)
+4. [BeMicro-Max-10](https://community.intel.com/t5/FPGA-Wiki/BeMicro-Max-10/ta-p/735231), Altera Max 10 (10M08DAF484C8GES)
+5. [Trenz-Electronic MAX1000](https://shop.trenz-electronic.de/en/TEI0001-03-16-C8A-MAX1000-IoT-Maker-Board-16-kLE-32-MByte-SDRAM), Altera Max 10 (10M16SAU169C8G)
+6. [Trenz-Electronic CYC1000](https://shop.trenz-electronic.de/en/Products/Trenz-Electronic/CYC1000-Intel-Cyclone-10/), Intel Cyclone 10 (10CL025YU256C8G)
+7. [Micro-Nova Mercury](https://www.micro-nova.com/mercury), Spartan 3A (XC3S200A5VQ100)
+8. [OHO-Elektronik GODIL50](http://www.oho-elektronik.de/pics/UM_GODIL.pdf), Spartan 3E (XC3S500E4VQG100C)
+9. [Numato Labs Mimas V2](https://numato.com/product/mimas-v2-spartan-6-fpga-development-board-with-ddr-sdram/), Spartan 6 (XC6SLX9CSG324)
+10. [Digilent Cora Z7](https://digilent.com/reference/programmable-logic/cora-z7/start), Zynq 7000, (XC7Z007S1CLG400C)
+11. [Digilent Cmod S7](https://digilent.com/reference/programmable-logic/cmod-s7/start), Spartan 7 (XC7S251CSGA225C)
+12. [Digilent Cmod A7](https://digilent.com/reference/programmable-logic/cmod-a7/start), Artix 7 (XC7A35T1CPG236C)
+13. [Lattice MachXO2 Pico](https://www.latticesemi.com/alpha-mxo2-pico-kit), Lattice Mach XO2 (LCMX02-1200ZE-1MG123I)
+14. [Nandland Go Board](https://www.nandland.com/blog/go-board-introduction.html), Lattice iCE40 (iCE40HX1K)
+15. [Trenz-Electronic LXO2000](https://shop.trenz-electronic.de/en/TEL0001-02-LXO2000-with-Lattice-XO2-4000-On-Board-USB/JTAG-2.5-x-6.15-cm), Lattice Mach XO2 (LCMXO2-4000HC-4QN84C)
+16. [OrangeCrab](https://1bitsquared.com/products/orangecrab), Lattice ECP5 (LFE5U-25F-8MG285C)
+17. [Radiona ULX3S](https://www.crowdsupply.com/radiona/ulx3s), Lattice ECP5 (LFE5U-85F-6BG381C)
+18. [Tang Primer](https://tang.sipeed.com/en/), Anlogic EG4 (EG4S20BG256)
+19. [Runber](https://www.seeedstudio.com/Gowin-RUNBER-Development-Board-p-4779.html), Gowin GW1N-4 (GW1N-UV4LQ144C6/I5)
+20. [Trenz-Electronic TEC0117](https://shop.trenz-electronic.de/en/TEC0117-01-FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM), Gowin GW1NR-9 (GW1NR-LV9QN88C6/I5)
+21. [DK START](https://gowinsemi.com/en/support/devkits_detail/31/), Gowin GW2A (LV18PG256C8I7)
+22. [FireAnt](https://www.crowdsupply.com/jungle-elec/fireant), Efinix Trion T8 (T8F81)
+23. [Trion T20](https://www.efinixinc.com/products-devkits-triont20.html), Efinix Trion T20 (T20F256)
+24. [Trenz-Electronic SMF2000](https://shop.trenz-electronic.de/en/TEM0001-01A-010C-SMF2000-FPGA-Module-with-Microsemi-SmartFusion2-8-MByte-SDRAM), Microsemi SmartFusion2 (M2S010-VF400)
 
 For power measurement [this device](https://www.amazon.de/-/en/gp/product/B07W6MWNMV/) was used (reports as Ruideng AT35 v.1.7 as it boots).
 
@@ -78,25 +83,26 @@ Finally, here is the list of devices, in the ascending order of the measured pow
 | 2   | Microsemi SF2     | M2S010-VF400          |              23.1 |
 | 3   | ECP5              | LFE5U-85F-6BG381C     |              25.1 |
 | 4   | Zynq 7000         | XC7Z007S1CLG400C      |              26.5 |
-| 5   | Altera Max 10     | 10M08DAF484C8GES      |              33.4 |
-| 6   | Intel Cyclone 10  | 10CL025YU256C8G       |              36.6 |
-| 7   | Anlogic EG4       | EG4S20BG256           |              37.4 |
-| 8   | Trion T20         | T20F256               |              37.9 |
-| 9   | Spartan 7         | XC7S251CSGA225C       |              52.3 |
-| 10  | Spartan 3E        | XC3S500E4VQG100C      |              57.0 |
-| 11  | Artix 7           | XC7A35T1CPG236C       |              67.2 |
-| 12  | Altera Max 10     | 10M16SAU169C8G        |              91.6 |
-| 13  | iCE40             | iCE40HX1K             |   23.0 x 4 = 92.0 |
-| 14  | Mach XO2          | LCMXO2-4000HC-4QN84C  |              96.1 |
-| 15  | Trion T8          | T8F81                 |             109.9 |
-| 16  | Gowin GW2A        | LV18PG256C8I7         |             114.2 |
-| 17  | Altera Cyclone IV | EP4CE6E22C8N          |             121.9 |
-| 18  | Spartan 6         | XC6SLX9CSG324         |             122.6 |
-| 19  | Gowin GW1NR-9     | GW1NR-LV9QN88C6/I5    |             130.5 |
-| 20  | Altera Cyclone II | EP2C5T144C8           |             166.0 |
-| 21  | Mach XO2          | LCMX02-1200ZE-1MG123I |             191.6 |
-| 22  | Spartan 3A        | XC3S200A5VQ100        |             195.6 |
-| 23  | Gowin GW1N-4      | GW1N-UV4LQ144C6/I5    |         ??? 534.2 |
+| 5   | Altera Cyclone V  | 5CEFA2F23I7N          |              31.6 |
+| 6   | Altera Max 10     | 10M08DAF484C8GES      |              33.4 |
+| 7   | Intel Cyclone 10  | 10CL025YU256C8G       |              36.6 |
+| 8   | Anlogic EG4       | EG4S20BG256           |              37.4 |
+| 9   | Trion T20         | T20F256               |              37.9 |
+| 10  | Spartan 7         | XC7S251CSGA225C       |              52.3 |
+| 11  | Spartan 3E        | XC3S500E4VQG100C      |              57.0 |
+| 12  | Artix 7           | XC7A35T1CPG236C       |              67.2 |
+| 13  | Altera Max 10     | 10M16SAU169C8G        |              91.6 |
+| 14  | iCE40             | iCE40HX1K             |   23.0 x 4 = 92.0 |
+| 15  | Mach XO2          | LCMXO2-4000HC-4QN84C  |              96.1 |
+| 16  | Trion T8          | T8F81                 |             109.9 |
+| 17  | Gowin GW2A        | LV18PG256C8I7         |             114.2 |
+| 18  | Altera Cyclone IV | EP4CE6E22C8N          |             121.9 |
+| 19  | Spartan 6         | XC6SLX9CSG324         |             122.6 |
+| 20  | Gowin GW1NR-9     | GW1NR-LV9QN88C6/I5    |             130.5 |
+| 21  | Altera Cyclone II | EP2C5T144C8           |             166.0 |
+| 22  | Mach XO2          | LCMX02-1200ZE-1MG123I |             191.6 |
+| 23  | Spartan 3A        | XC3S200A5VQ100        |             195.6 |
+| 24  | Gowin GW1N-4      | GW1N-UV4LQ144C6/I5    |  (see note) 534.2 |
 
 # Notes
 
